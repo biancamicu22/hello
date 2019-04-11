@@ -2,8 +2,10 @@
 #include <stdlib.h>
 
 int main()
-{ 
-printf("Hello world!\n");
+{
+char c[20];
+scanf("%s",c);
+printf("Hello %s!\n",c);
 return 0;
 }
 
